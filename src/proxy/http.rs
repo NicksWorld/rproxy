@@ -25,7 +25,7 @@ impl error::Error for RequestParseError {
 }
 
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Request {
     pub url: Url,
     pub method: String,

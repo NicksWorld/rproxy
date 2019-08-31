@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 url = "2.1.0"
+dns-lookup = "1.0.1"
